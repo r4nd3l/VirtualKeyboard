@@ -103,15 +103,236 @@ document.addEventListener("keydown", keyboard_start);
 function keyboard_start(event){
   let key = event.keyCode;
   let button = document.getElementsByClassName("key");
-  if(key == 37){
-    console.log("left");
-  }else if(key == 38){
-    console.log("up");
-  }else if(key == 39){
-    console.log("right");;
-  }else if(key == key_Space){
+
+  if(key == key_grave_accent ){
+    console.log(key_grave_accent );
+    button[0].style.border = "1px solid var(--dw-)";
+  }
+  else if(key == key_1){
+    console.log(key_1);
+    button[1].style.border = "1px solid var(--dw-)";
+  }
+  else if(key == key_2){
+    console.log(key_2);
+    button[2].style.border = "1px solid var(--dw-)";
+  }
+  else if(key == key_3){
+    console.log(key_3);
+    button[3].style.border = "1px solid var(--dw-)";
+  }
+  else if(key == key_4){
+    console.log(key_4);
+    button[4].style.border = "1px solid var(--dw-)";
+  }
+  else if(key == key_5){
+    console.log(key_5);
+    button[5].style.border = "1px solid var(--dw-)";
+  }
+  else if(key == key_6){
+    console.log(key_6);
+    button[6].style.border = "1px solid var(--dw-)";
+  }
+  else if(key == key_7){
+    console.log(key_7);
+    button[7].style.border = "1px solid var(--dw-)";
+  }
+  else if(key == key_8){
+    console.log(key_8);
+    button[8].style.border = "1px solid var(--dw-)";
+  }
+  else if(key == key_9){
+    console.log(key_9);
+    button[9].style.border = "1px solid var(--dw-)";
+  }
+  else if(key == key_0){
+    console.log(key_0);
+    button[10].style.border = "1px solid var(--dw-)";
+  }
+  else if(key == key_subtract ){
+    console.log(key_subtract );
+    button[11].style.border = "1px solid var(--dw-)";
+  }
+  else if(key == key_add ){
+    console.log(key_add );
+    button[12].style.border = "1px solid var(--dw-)";
+  }
+  else if(key == key_Delete){
+    console.log(key_Delete);
+    button[13].style.border = "1px solid var(--dw-)";
+  }
+  else if(key == key_Tab){
+    console.log(key_Tab);
+    button[14].style.border = "1px solid var(--dw-)";
+  }
+  else if(key == key_Q){
+    console.log(key_Q);
+    button[15].style.border = "1px solid var(--dw-)";
+  }
+  else if(key == key_w){
+    console.log(key_w);
+    button[16].style.border = "1px solid var(--dw-)";
+  }
+  else if(key == key_E){
+    console.log(key_E);
+    button[17].style.border = "1px solid var(--dw-)";
+  }
+  else if(key == key_R){
+    console.log(key_R);
+    button[18].style.border = "1px solid var(--dw-)";
+  }
+  else if(key == key_T){
+    console.log(key_T);
+    button[19].style.border = "1px solid var(--dw-)";
+  }
+  else if(key == key_Y){
+    console.log(key_Y);
+    button[20].style.border = "1px solid var(--dw-)";
+  }
+  else if(key == key_U){
+    console.log(key_U);
+    button[21].style.border = "1px solid var(--dw-)";
+  }
+  else if(key == key_I){
+    console.log(key_I);
+    button[22].style.border = "1px solid var(--dw-)";
+  }
+  else if(key == key_O){
+    console.log(key_O);
+    button[23].style.border = "1px solid var(--dw-)";
+  }
+  else if(key == key_P){
+    console.log(key_P);
+    button[24].style.border = "1px solid var(--dw-)";
+  }
+  else if(key == key_suqare_left ){
+    console.log(key_suqare_left );
+    button[25].style.border = "1px solid var(--dw-)";
+  }
+  else if(key == key_suqare_right ){
+    console.log(key_suqare_right );
+    button[26].style.border = "1px solid var(--dw-)";
+  }
+  else if(key == key_back_slash ){
+    console.log(key_back_slash );
+    button[27].style.border = "1px solid var(--dw-)";
+  }
+  else if(key == key_CapsLock){
+    console.log(key_CapsLock);
+    button[28].style.border = "1px solid var(--dw-)";
+  }
+  else if(key == key_A){
+    console.log(key_A);
+    button[29].style.border = "1px solid var(--dw-)";
+  }
+  else if(key == key_S){
+    console.log(key_S);
+    button[30].style.border = "1px solid var(--dw-)";
+  }
+  else if(key == key_D){
+    console.log(key_D);
+    button[31].style.border = "1px solid var(--dw-)";
+  }
+  else if(key == key_F){
+    console.log(key_F);
+    button[32].style.border = "1px solid var(--dw-)";
+  }
+  else if(key == key_G){
+    console.log(key_G);
+    button[33].style.border = "1px solid var(--dw-)";
+  }
+  else if(key == key_H){
+    console.log(key_H);
+    button[34].style.border = "1px solid var(--dw-)";
+  }
+  else if(key == key_J){
+    console.log(key_J);
+    button[35].style.border = "1px solid var(--dw-)";
+  }
+  else if(key == key_K){
+    console.log(key_K);
+    button[36].style.border = "1px solid var(--dw-)";
+  }
+  else if(key == key_L){
+    console.log(key_L);
+    button[37].style.border = "1px solid var(--dw-)";
+  }
+  else if(key == key_semi_colon ){
+    console.log(key_semi_colon );
+    button[38].style.border = "1px solid var(--dw-)";
+  }
+  else if(key == key_singe_quote ){
+    console.log(key_singe_quote );
+    button[39].style.border = "1px solid var(--dw-)";
+  }
+  else if(key == key_enter){
+    console.log(key_enter);
+    button[40].style.border = "1px solid var(--dw-)";
+  }
+  else if(key == key_Shift){
+    console.log(key_Shift);
+    button[41].style.border = "1px solid var(--dw-)";
+    button[52].style.border = "1px solid var(--dw-)";
+  }
+  else if(key == key_Z){
+    console.log(key_Z);
+    button[42].style.border = "1px solid var(--dw-)";
+  }
+  else if(key == key_X){
+    console.log(key_X);
+    button[43].style.border = "1px solid var(--dw-)";
+  }
+  else if(key == key_C){
+    console.log(key_C);
+    button[44].style.border = "1px solid var(--dw-)";
+  }
+  else if(key == key_V){
+    console.log(key_V);
+    button[45].style.border = "1px solid var(--dw-)";
+  }
+  else if(key == key_B){
+    console.log(key_B);
+    button[46].style.border = "1px solid var(--dw-)";
+  }
+  else if(key == key_N){
+    console.log(key_N);
+    button[47].style.border = "1px solid var(--dw-)";
+  }
+  else if(key == key_M){
+    console.log(key_M);
+    button[48].style.border = "1px solid var(--dw-)";
+  }
+  else if(key == key_comma ){
+    console.log(key_comma );
+    button[49].style.border = "1px solid var(--dw-)";
+  }
+  else if(key == key_periode ){
+    console.log(key_periode );
+    button[50].style.border = "1px solid var(--dw-)";
+  }
+  else if(key == key_slash ){
+    console.log(key_slash );
+    button[51].style.border = "1px solid var(--dw-)";
+  }
+  else if(key == key_Space){
     console.log(key_Space);
     button[56].style.border = "1px solid var(--dw-)";
+  }
+  else if(key == key_Cmd){
+    console.log(key_Cmd);
+    button[53].style.border = "1px solid var(--dw-)";
+  }
+  else if(key == key_Alt){
+    console.log(key_Alt);
+    button[58].style.border = "1px solid var(--dw-)";
+  }
+  else if(key == key_Ctrl){
+    console.log(key_Ctrl);
+    button[53].style.border = "1px solid var(--dw-)";
+    button[59].style.border = "1px solid var(--dw-)";
+  }
+  else if(key == key_Fn){
+    console.log(key_Fn);
+    button[60].style.border = "1px solid var(--dw-)";
   }
 }
 
@@ -120,15 +341,236 @@ document.addEventListener("keyup", keyboard_over);
 function keyboard_over(event){
   let key = event.keyCode;
   let button = document.getElementsByClassName("key");
-  if(key == 37){
-    console.log("left");
-  }else if(key == 38){
-    console.log("up");
-  }else if(key == 39){
-    console.log("right");;
-  }else if(key == key_Space){
+
+  if(key == key_grave_accent ){
+    console.log(key_grave_accent );
+    button[0].style.border = "2px solid var(--gr2-)";
+  }
+  else if(key == key_1){
+    console.log(key_1);
+    button[1].style.border = "2px solid var(--gr2-)";
+  }
+  else if(key == key_2){
+    console.log(key_2);
+    button[2].style.border = "2px solid var(--gr2-)";
+  }
+  else if(key == key_3){
+    console.log(key_3);
+    button[3].style.border = "2px solid var(--gr2-)";
+  }
+  else if(key == key_4){
+    console.log(key_4);
+    button[4].style.border = "2px solid var(--gr2-)";
+  }
+  else if(key == key_5){
+    console.log(key_5);
+    button[5].style.border = "2px solid var(--gr2-)";
+  }
+  else if(key == key_6){
+    console.log(key_6);
+    button[6].style.border = "2px solid var(--gr2-)";
+  }
+  else if(key == key_7){
+    console.log(key_7);
+    button[7].style.border = "2px solid var(--gr2-)";
+  }
+  else if(key == key_8){
+    console.log(key_8);
+    button[8].style.border = "2px solid var(--gr2-)";
+  }
+  else if(key == key_9){
+    console.log(key_9);
+    button[9].style.border = "2px solid var(--gr2-)";
+  }
+  else if(key == key_0){
+    console.log(key_0);
+    button[10].style.border = "2px solid var(--gr2-)";
+  }
+  else if(key == key_subtract ){
+    console.log(key_subtract );
+    button[11].style.border = "2px solid var(--gr2-)";
+  }
+  else if(key == key_add ){
+    console.log(key_add );
+    button[12].style.border = "2px solid var(--gr2-)";
+  }
+  else if(key == key_Delete){
+    console.log(key_Delete);
+    button[13].style.border = "2px solid var(--gr2-)";
+  }
+  else if(key == key_Tab){
+    console.log(key_Tab);
+    button[14].style.border = "2px solid var(--gr2-)";
+  }
+  else if(key == key_Q){
+    console.log(key_Q);
+    button[15].style.border = "2px solid var(--gr2-)";
+  }
+  else if(key == key_w){
+    console.log(key_w);
+    button[16].style.border = "2px solid var(--gr2-)";
+  }
+  else if(key == key_E){
+    console.log(key_E);
+    button[17].style.border = "2px solid var(--gr2-)";
+  }
+  else if(key == key_R){
+    console.log(key_R);
+    button[18].style.border = "2px solid var(--gr2-)";
+  }
+  else if(key == key_T){
+    console.log(key_T);
+    button[19].style.border = "2px solid var(--gr2-)";
+  }
+  else if(key == key_Y){
+    console.log(key_Y);
+    button[20].style.border = "2px solid var(--gr2-)";
+  }
+  else if(key == key_U){
+    console.log(key_U);
+    button[21].style.border = "2px solid var(--gr2-)";
+  }
+  else if(key == key_I){
+    console.log(key_I);
+    button[22].style.border = "2px solid var(--gr2-)";
+  }
+  else if(key == key_O){
+    console.log(key_O);
+    button[23].style.border = "2px solid var(--gr2-)";
+  }
+  else if(key == key_P){
+    console.log(key_P);
+    button[24].style.border = "2px solid var(--gr2-)";
+  }
+  else if(key == key_suqare_left ){
+    console.log(key_suqare_left );
+    button[25].style.border = "2px solid var(--gr2-)";
+  }
+  else if(key == key_suqare_right ){
+    console.log(key_suqare_right );
+    button[26].style.border = "2px solid var(--gr2-)";
+  }
+  else if(key == key_back_slash ){
+    console.log(key_back_slash );
+    button[27].style.border = "2px solid var(--gr2-)";
+  }
+  else if(key == key_CapsLock){
+    console.log(key_CapsLock);
+    button[28].style.border = "2px solid var(--gr2-)";
+  }
+  else if(key == key_A){
+    console.log(key_A);
+    button[29].style.border = "2px solid var(--gr2-)";
+  }
+  else if(key == key_S){
+    console.log(key_S);
+    button[30].style.border = "2px solid var(--gr2-)";
+  }
+  else if(key == key_D){
+    console.log(key_D);
+    button[31].style.border = "2px solid var(--gr2-)";
+  }
+  else if(key == key_F){
+    console.log(key_F);
+    button[32].style.border = "2px solid var(--gr2-)";
+  }
+  else if(key == key_G){
+    console.log(key_G);
+    button[33].style.border = "2px solid var(--gr2-)";
+  }
+  else if(key == key_H){
+    console.log(key_H);
+    button[34].style.border = "2px solid var(--gr2-)";
+  }
+  else if(key == key_J){
+    console.log(key_J);
+    button[35].style.border = "2px solid var(--gr2-)";
+  }
+  else if(key == key_K){
+    console.log(key_K);
+    button[36].style.border = "2px solid var(--gr2-)";
+  }
+  else if(key == key_L){
+    console.log(key_L);
+    button[37].style.border = "2px solid var(--gr2-)";
+  }
+  else if(key == key_semi_colon ){
+    console.log(key_semi_colon );
+    button[38].style.border = "2px solid var(--gr2-)";
+  }
+  else if(key == key_singe_quote ){
+    console.log(key_singe_quote );
+    button[39].style.border = "2px solid var(--gr2-)";
+  }
+  else if(key == key_enter){
+    console.log(key_enter);
+    button[40].style.border = "2px solid var(--gr2-)";
+  }
+  else if(key == key_Shift){
+    console.log(key_Shift);
+    button[41].style.border = "2px solid var(--gr2-)";
+    button[52].style.border = "2px solid var(--gr2-)";
+  }
+  else if(key == key_Z){
+    console.log(key_Z);
+    button[42].style.border = "2px solid var(--gr2-)";
+  }
+  else if(key == key_X){
+    console.log(key_X);
+    button[43].style.border = "2px solid var(--gr2-)";
+  }
+  else if(key == key_C){
+    console.log(key_C);
+    button[44].style.border = "2px solid var(--gr2-)";
+  }
+  else if(key == key_V){
+    console.log(key_V);
+    button[45].style.border = "2px solid var(--gr2-)";
+  }
+  else if(key == key_B){
+    console.log(key_B);
+    button[46].style.border = "2px solid var(--gr2-)";
+  }
+  else if(key == key_N){
+    console.log(key_N);
+    button[47].style.border = "2px solid var(--gr2-)";
+  }
+  else if(key == key_M){
+    console.log(key_M);
+    button[48].style.border = "2px solid var(--gr2-)";
+  }
+  else if(key == key_comma ){
+    console.log(key_comma );
+    button[49].style.border = "2px solid var(--gr2-)";
+  }
+  else if(key == key_periode ){
+    console.log(key_periode );
+    button[50].style.border = "2px solid var(--gr2-)";
+  }
+  else if(key == key_slash ){
+    console.log(key_slash );
+    button[51].style.border = "2px solid var(--gr2-)";
+  }
+  else if(key == key_Space){
     console.log(key_Space);
     button[56].style.border = "2px solid var(--gr2-)";
+  }
+  else if(key == key_Cmd){
+    console.log(key_Cmd);
+    button[53].style.border = "2px solid var(--gr2-)";
+  }
+  else if(key == key_Alt){
+    console.log(key_Alt);
+    button[58].style.border = "2px solid var(--gr2-)";
+  }
+  else if(key == key_Ctrl){
+    console.log(key_Ctrl);
+    button[53].style.border = "2px solid var(--gr2-)";
+    button[59].style.border = "2px solid var(--gr2-)";
+  }
+  else if(key == key_Fn){
+    console.log(key_Fn);
+    button[60].style.border = "2px solid var(--gr2-)";
   }
 }
 
