@@ -42,7 +42,6 @@ section{
 }
 
 .key:hover {
-  /* border: 1px solid #eeeeee; */
   border: 1px solid var(--dw-);
 }
 .delete {grid-column: span 4;}

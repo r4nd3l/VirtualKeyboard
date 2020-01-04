@@ -98,25 +98,37 @@ let key_Alt = 18;
 let key_Ctrl = 17;
 let key_Fn = 93;
 
-
 // keydown listener
-let d;
-document.addEventListener("keydown", keyboard);
-
-function keyboard(event){
+document.addEventListener("keydown", keyboard_start);
+function keyboard_start(event){
   let key = event.keyCode;
-  if(key == 37 && d != "right"){
+  let button = document.getElementsByClassName("key");
+  if(key == 37){
     console.log("left");
-    d = "left";
-  }else if(key == 38 && d != "down"){
+  }else if(key == 38){
     console.log("up");
-    d = "up";
-  }else if(key == 39 && d != "left"){
+  }else if(key == 39){
     console.log("right");;
-    d = "right";
-  }else if(key == 40 && d != "up"){
-    console.log("down");
-    d = "down";
+  }else if(key == key_Space){
+    console.log(key_Space);
+    button[56].style.border = "1px solid var(--dw-)";
+  }
+}
+
+// keyup listener
+document.addEventListener("keyup", keyboard_over);
+function keyboard_over(event){
+  let key = event.keyCode;
+  let button = document.getElementsByClassName("key");
+  if(key == 37){
+    console.log("left");
+  }else if(key == 38){
+    console.log("up");
+  }else if(key == 39){
+    console.log("right");;
+  }else if(key == key_Space){
+    console.log(key_Space);
+    button[56].style.border = "2px solid var(--gr2-)";
   }
 }
 
